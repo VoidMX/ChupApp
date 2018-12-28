@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ios-chugar
+//  ChupApp
 //
-//  Created by Inaki Janeiro Olague on 12/26/18.
+//  Created by Inaki Janeiro Olague on 12/28/18.
 //  Copyright © 2018 VoidMX. All rights reserved.
 //
 
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "ios_chugar")
+        let container = NSPersistentContainer(name: "ChupApp")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
