@@ -1,15 +1,15 @@
 //
-//  ios_chugarTests.swift
-//  ios-chugarTests
+//  ChupAppTests.swift
+//  ChupAppTests
 //
-//  Created by Inaki Janeiro Olague on 12/26/18.
+//  Created by Inaki Janeiro Olague on 12/28/18.
 //  Copyright © 2018 VoidMX. All rights reserved.
 //
 
 import XCTest
-@testable import ios_chugar
+@testable import ChupApp
 
-class ios_chugarTests: XCTestCase {
+class ChupAppTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

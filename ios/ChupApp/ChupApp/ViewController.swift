@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  ios-chugar
+//  ChupApp
 //
-//  Created by Inaki Janeiro Olague on 12/26/18.
+//  Created by Inaki Janeiro Olague on 12/28/18.
 //  Copyright © 2018 VoidMX. All rights reserved.
 //
 
