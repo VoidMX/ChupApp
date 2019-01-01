@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1098D6C321D5F4F900F5008B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098D6C221D5F4F900F5008B /* AppDelegate.swift */; };
-		1098D6C521D5F4F900F5008B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098D6C421D5F4F900F5008B /* ViewController.swift */; };
-		1098D6C821D5F4F900F5008B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098D6C621D5F4F900F5008B /* Main.storyboard */; };
-		1098D6CB21D5F4F900F5008B /* ChupApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1098D6C921D5F4F900F5008B /* ChupApp.xcdatamodeld */; };
-		1098D6CD21D5F50E00F5008B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1098D6CC21D5F50E00F5008B /* Assets.xcassets */; };
-		1098D6D021D5F50E00F5008B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098D6CE21D5F50E00F5008B /* LaunchScreen.storyboard */; };
-		1098D6DB21D5F51000F5008B /* ChupAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098D6DA21D5F51000F5008B /* ChupAppTests.swift */; };
-		1098D6E621D5F51000F5008B /* ChupAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098D6E521D5F51000F5008B /* ChupAppUITests.swift */; };
+		10C386D721DB115A00457039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386D621DB115A00457039 /* AppDelegate.swift */; };
+		10C386D921DB115A00457039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386D821DB115A00457039 /* ViewController.swift */; };
+		10C386DC21DB115A00457039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C386DA21DB115A00457039 /* Main.storyboard */; };
+		10C386DE21DB115C00457039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C386DD21DB115C00457039 /* Assets.xcassets */; };
+		10C386E121DB115C00457039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C386DF21DB115C00457039 /* LaunchScreen.storyboard */; };
+		10C386EC21DB115D00457039 /* ChupAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386EB21DB115D00457039 /* ChupAppTests.swift */; };
+		10C386F721DB115D00457039 /* ChupAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386F621DB115D00457039 /* ChupAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1098D6D721D5F51000F5008B /* PBXContainerItemProxy */ = {
+		10C386E821DB115D00457039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1098D6B721D5F4F900F5008B /* Project object */;
+			containerPortal = 10C386CB21DB115A00457039 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1098D6BE21D5F4F900F5008B;
+			remoteGlobalIDString = 10C386D221DB115A00457039;
 			remoteInfo = ChupApp;
 		};
-		1098D6E221D5F51000F5008B /* PBXContainerItemProxy */ = {
+		10C386F321DB115D00457039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1098D6B721D5F4F900F5008B /* Project object */;
+			containerPortal = 10C386CB21DB115A00457039 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1098D6BE21D5F4F900F5008B;
+			remoteGlobalIDString = 10C386D221DB115A00457039;
 			remoteInfo = ChupApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1098D6BF21D5F4F900F5008B /* ChupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1098D6C221D5F4F900F5008B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1098D6C421D5F4F900F5008B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1098D6C721D5F4F900F5008B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1098D6CA21D5F4F900F5008B /* ChupApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChupApp.xcdatamodel; sourceTree = "<group>"; };
-		1098D6CC21D5F50E00F5008B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1098D6CF21D5F50E00F5008B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1098D6D121D5F50E00F5008B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1098D6D621D5F51000F5008B /* ChupAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChupAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1098D6DA21D5F51000F5008B /* ChupAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChupAppTests.swift; sourceTree = "<group>"; };
-		1098D6DC21D5F51000F5008B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1098D6E121D5F51000F5008B /* ChupAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChupAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1098D6E521D5F51000F5008B /* ChupAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChupAppUITests.swift; sourceTree = "<group>"; };
-		1098D6E721D5F51000F5008B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C386D321DB115A00457039 /* ChupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C386D621DB115A00457039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10C386D821DB115A00457039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10C386DB21DB115A00457039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10C386DD21DB115C00457039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10C386E021DB115C00457039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10C386E221DB115C00457039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C386E721DB115D00457039 /* ChupAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChupAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C386EB21DB115D00457039 /* ChupAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChupAppTests.swift; sourceTree = "<group>"; };
+		10C386ED21DB115D00457039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C386F221DB115D00457039 /* ChupAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChupAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C386F621DB115D00457039 /* ChupAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChupAppUITests.swift; sourceTree = "<group>"; };
+		10C386F821DB115D00457039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1098D6BC21D5F4F900F5008B /* Frameworks */ = {
+		10C386D021DB115A00457039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1098D6D321D5F51000F5008B /* Frameworks */ = {
+		10C386E421DB115D00457039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1098D6DE21D5F51000F5008B /* Frameworks */ = {
+		10C386EF21DB115D00457039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1098D6B621D5F4F900F5008B = {
+		10C386CA21DB115A00457039 = {
 			isa = PBXGroup;
 			children = (
-				1098D6C121D5F4F900F5008B /* ChupApp */,
-				1098D6D921D5F51000F5008B /* ChupAppTests */,
-				1098D6E421D5F51000F5008B /* ChupAppUITests */,
-				1098D6C021D5F4F900F5008B /* Products */,
+				10C386D521DB115A00457039 /* ChupApp */,
+				10C386EA21DB115D00457039 /* ChupAppTests */,
+				10C386F521DB115D00457039 /* ChupAppUITests */,
+				10C386D421DB115A00457039 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1098D6C021D5F4F900F5008B /* Products */ = {
+		10C386D421DB115A00457039 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1098D6BF21D5F4F900F5008B /* ChupApp.app */,
-				1098D6D621D5F51000F5008B /* ChupAppTests.xctest */,
-				1098D6E121D5F51000F5008B /* ChupAppUITests.xctest */,
+				10C386D321DB115A00457039 /* ChupApp.app */,
+				10C386E721DB115D00457039 /* ChupAppTests.xctest */,
+				10C386F221DB115D00457039 /* ChupAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1098D6C121D5F4F900F5008B /* ChupApp */ = {
+		10C386D521DB115A00457039 /* ChupApp */ = {
 			isa = PBXGroup;
 			children = (
-				1098D6C221D5F4F900F5008B /* AppDelegate.swift */,
-				1098D6C421D5F4F900F5008B /* ViewController.swift */,
-				1098D6C621D5F4F900F5008B /* Main.storyboard */,
-				1098D6CC21D5F50E00F5008B /* Assets.xcassets */,
-				1098D6CE21D5F50E00F5008B /* LaunchScreen.storyboard */,
-				1098D6D121D5F50E00F5008B /* Info.plist */,
-				1098D6C921D5F4F900F5008B /* ChupApp.xcdatamodeld */,
+				10C386D621DB115A00457039 /* AppDelegate.swift */,
+				10C386D821DB115A00457039 /* ViewController.swift */,
+				10C386DA21DB115A00457039 /* Main.storyboard */,
+				10C386DD21DB115C00457039 /* Assets.xcassets */,
+				10C386DF21DB115C00457039 /* LaunchScreen.storyboard */,
+				10C386E221DB115C00457039 /* Info.plist */,
 			);
 			path = ChupApp;
 			sourceTree = "<group>";
 		};
-		1098D6D921D5F51000F5008B /* ChupAppTests */ = {
+		10C386EA21DB115D00457039 /* ChupAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				1098D6DA21D5F51000F5008B /* ChupAppTests.swift */,
-				1098D6DC21D5F51000F5008B /* Info.plist */,
+				10C386EB21DB115D00457039 /* ChupAppTests.swift */,
+				10C386ED21DB115D00457039 /* Info.plist */,
 			);
 			path = ChupAppTests;
 			sourceTree = "<group>";
 		};
-		1098D6E421D5F51000F5008B /* ChupAppUITests */ = {
+		10C386F521DB115D00457039 /* ChupAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1098D6E521D5F51000F5008B /* ChupAppUITests.swift */,
-				1098D6E721D5F51000F5008B /* Info.plist */,
+				10C386F621DB115D00457039 /* ChupAppUITests.swift */,
+				10C386F821DB115D00457039 /* Info.plist */,
 			);
 			path = ChupAppUITests;
 			sourceTree = "<group>";
@@ -131,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1098D6BE21D5F4F900F5008B /* ChupApp */ = {
+		10C386D221DB115A00457039 /* ChupApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1098D6EA21D5F51000F5008B /* Build configuration list for PBXNativeTarget "ChupApp" */;
+			buildConfigurationList = 10C386FB21DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupApp" */;
 			buildPhases = (
-				1098D6BB21D5F4F900F5008B /* Sources */,
-				1098D6BC21D5F4F900F5008B /* Frameworks */,
-				1098D6BD21D5F4F900F5008B /* Resources */,
+				10C386CF21DB115A00457039 /* Sources */,
+				10C386D021DB115A00457039 /* Frameworks */,
+				10C386D121DB115A00457039 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +142,69 @@
 			);
 			name = ChupApp;
 			productName = ChupApp;
-			productReference = 1098D6BF21D5F4F900F5008B /* ChupApp.app */;
+			productReference = 10C386D321DB115A00457039 /* ChupApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1098D6D521D5F51000F5008B /* ChupAppTests */ = {
+		10C386E621DB115D00457039 /* ChupAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1098D6ED21D5F51000F5008B /* Build configuration list for PBXNativeTarget "ChupAppTests" */;
+			buildConfigurationList = 10C386FE21DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupAppTests" */;
 			buildPhases = (
-				1098D6D221D5F51000F5008B /* Sources */,
-				1098D6D321D5F51000F5008B /* Frameworks */,
-				1098D6D421D5F51000F5008B /* Resources */,
+				10C386E321DB115D00457039 /* Sources */,
+				10C386E421DB115D00457039 /* Frameworks */,
+				10C386E521DB115D00457039 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1098D6D821D5F51000F5008B /* PBXTargetDependency */,
+				10C386E921DB115D00457039 /* PBXTargetDependency */,
 			);
 			name = ChupAppTests;
 			productName = ChupAppTests;
-			productReference = 1098D6D621D5F51000F5008B /* ChupAppTests.xctest */;
+			productReference = 10C386E721DB115D00457039 /* ChupAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1098D6E021D5F51000F5008B /* ChupAppUITests */ = {
+		10C386F121DB115D00457039 /* ChupAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1098D6F021D5F51000F5008B /* Build configuration list for PBXNativeTarget "ChupAppUITests" */;
+			buildConfigurationList = 10C3870121DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupAppUITests" */;
 			buildPhases = (
-				1098D6DD21D5F51000F5008B /* Sources */,
-				1098D6DE21D5F51000F5008B /* Frameworks */,
-				1098D6DF21D5F51000F5008B /* Resources */,
+				10C386EE21DB115D00457039 /* Sources */,
+				10C386EF21DB115D00457039 /* Frameworks */,
+				10C386F021DB115D00457039 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1098D6E321D5F51000F5008B /* PBXTargetDependency */,
+				10C386F421DB115D00457039 /* PBXTargetDependency */,
 			);
 			name = ChupAppUITests;
 			productName = ChupAppUITests;
-			productReference = 1098D6E121D5F51000F5008B /* ChupAppUITests.xctest */;
+			productReference = 10C386F221DB115D00457039 /* ChupAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1098D6B721D5F4F900F5008B /* Project object */ = {
+		10C386CB21DB115A00457039 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = VoidMX;
 				TargetAttributes = {
-					1098D6BE21D5F4F900F5008B = {
+					10C386D221DB115A00457039 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					1098D6D521D5F51000F5008B = {
+					10C386E621DB115D00457039 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 1098D6BE21D5F4F900F5008B;
+						TestTargetID = 10C386D221DB115A00457039;
 					};
-					1098D6E021D5F51000F5008B = {
+					10C386F121DB115D00457039 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 1098D6BE21D5F4F900F5008B;
+						TestTargetID = 10C386D221DB115A00457039;
 					};
 				};
 			};
-			buildConfigurationList = 1098D6BA21D5F4F900F5008B /* Build configuration list for PBXProject "ChupApp" */;
+			buildConfigurationList = 10C386CE21DB115A00457039 /* Build configuration list for PBXProject "ChupApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1098D6B621D5F4F900F5008B;
-			productRefGroup = 1098D6C021D5F4F900F5008B /* Products */;
+			mainGroup = 10C386CA21DB115A00457039;
+			productRefGroup = 10C386D421DB115A00457039 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1098D6BE21D5F4F900F5008B /* ChupApp */,
-				1098D6D521D5F51000F5008B /* ChupAppTests */,
-				1098D6E021D5F51000F5008B /* ChupAppUITests */,
+				10C386D221DB115A00457039 /* ChupApp */,
+				10C386E621DB115D00457039 /* ChupAppTests */,
+				10C386F121DB115D00457039 /* ChupAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1098D6BD21D5F4F900F5008B /* Resources */ = {
+		10C386D121DB115A00457039 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1098D6D021D5F50E00F5008B /* LaunchScreen.storyboard in Resources */,
-				1098D6CD21D5F50E00F5008B /* Assets.xcassets in Resources */,
-				1098D6C821D5F4F900F5008B /* Main.storyboard in Resources */,
+				10C386E121DB115C00457039 /* LaunchScreen.storyboard in Resources */,
+				10C386DE21DB115C00457039 /* Assets.xcassets in Resources */,
+				10C386DC21DB115A00457039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1098D6D421D5F51000F5008B /* Resources */ = {
+		10C386E521DB115D00457039 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1098D6DF21D5F51000F5008B /* Resources */ = {
+		10C386F021DB115D00457039 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1098D6BB21D5F4F900F5008B /* Sources */ = {
+		10C386CF21DB115A00457039 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1098D6C521D5F4F900F5008B /* ViewController.swift in Sources */,
-				1098D6CB21D5F4F900F5008B /* ChupApp.xcdatamodeld in Sources */,
-				1098D6C321D5F4F900F5008B /* AppDelegate.swift in Sources */,
+				10C386D921DB115A00457039 /* ViewController.swift in Sources */,
+				10C386D721DB115A00457039 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1098D6D221D5F51000F5008B /* Sources */ = {
+		10C386E321DB115D00457039 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1098D6DB21D5F51000F5008B /* ChupAppTests.swift in Sources */,
+				10C386EC21DB115D00457039 /* ChupAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1098D6DD21D5F51000F5008B /* Sources */ = {
+		10C386EE21DB115D00457039 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1098D6E621D5F51000F5008B /* ChupAppUITests.swift in Sources */,
+				10C386F721DB115D00457039 /* ChupAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1098D6D821D5F51000F5008B /* PBXTargetDependency */ = {
+		10C386E921DB115D00457039 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1098D6BE21D5F4F900F5008B /* ChupApp */;
-			targetProxy = 1098D6D721D5F51000F5008B /* PBXContainerItemProxy */;
+			target = 10C386D221DB115A00457039 /* ChupApp */;
+			targetProxy = 10C386E821DB115D00457039 /* PBXContainerItemProxy */;
 		};
-		1098D6E321D5F51000F5008B /* PBXTargetDependency */ = {
+		10C386F421DB115D00457039 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1098D6BE21D5F4F900F5008B /* ChupApp */;
-			targetProxy = 1098D6E221D5F51000F5008B /* PBXContainerItemProxy */;
+			target = 10C386D221DB115A00457039 /* ChupApp */;
+			targetProxy = 10C386F321DB115D00457039 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1098D6C621D5F4F900F5008B /* Main.storyboard */ = {
+		10C386DA21DB115A00457039 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1098D6C721D5F4F900F5008B /* Base */,
+				10C386DB21DB115A00457039 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1098D6CE21D5F50E00F5008B /* LaunchScreen.storyboard */ = {
+		10C386DF21DB115C00457039 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1098D6CF21D5F50E00F5008B /* Base */,
+				10C386E021DB115C00457039 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1098D6E821D5F51000F5008B /* Debug */ = {
+		10C386F921DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		1098D6E921D5F51000F5008B /* Release */ = {
+		10C386FA21DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +428,7 @@
 			};
 			name = Release;
 		};
-		1098D6EB21D5F51000F5008B /* Debug */ = {
+		10C386FC21DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -450,7 +446,7 @@
 			};
 			name = Debug;
 		};
-		1098D6EC21D5F51000F5008B /* Release */ = {
+		10C386FD21DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,13 +464,12 @@
 			};
 			name = Release;
 		};
-		1098D6EE21D5F51000F5008B /* Debug */ = {
+		10C386FF21DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9B5WH826WU;
 				INFOPLIST_FILE = ChupAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,13 +484,12 @@
 			};
 			name = Debug;
 		};
-		1098D6EF21D5F51000F5008B /* Release */ = {
+		10C3870021DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9B5WH826WU;
 				INFOPLIST_FILE = ChupAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,12 +504,11 @@
 			};
 			name = Release;
 		};
-		1098D6F121D5F51000F5008B /* Debug */ = {
+		10C3870221DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9B5WH826WU;
 				INFOPLIST_FILE = ChupAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,12 +523,11 @@
 			};
 			name = Debug;
 		};
-		1098D6F221D5F51000F5008B /* Release */ = {
+		10C3870321DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9B5WH826WU;
 				INFOPLIST_FILE = ChupAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,56 +545,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1098D6BA21D5F4F900F5008B /* Build configuration list for PBXProject "ChupApp" */ = {
+		10C386CE21DB115A00457039 /* Build configuration list for PBXProject "ChupApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1098D6E821D5F51000F5008B /* Debug */,
-				1098D6E921D5F51000F5008B /* Release */,
+				10C386F921DB115D00457039 /* Debug */,
+				10C386FA21DB115D00457039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1098D6EA21D5F51000F5008B /* Build configuration list for PBXNativeTarget "ChupApp" */ = {
+		10C386FB21DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1098D6EB21D5F51000F5008B /* Debug */,
-				1098D6EC21D5F51000F5008B /* Release */,
+				10C386FC21DB115D00457039 /* Debug */,
+				10C386FD21DB115D00457039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1098D6ED21D5F51000F5008B /* Build configuration list for PBXNativeTarget "ChupAppTests" */ = {
+		10C386FE21DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1098D6EE21D5F51000F5008B /* Debug */,
-				1098D6EF21D5F51000F5008B /* Release */,
+				10C386FF21DB115D00457039 /* Debug */,
+				10C3870021DB115D00457039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1098D6F021D5F51000F5008B /* Build configuration list for PBXNativeTarget "ChupAppUITests" */ = {
+		10C3870121DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1098D6F121D5F51000F5008B /* Debug */,
-				1098D6F221D5F51000F5008B /* Release */,
+				10C3870221DB115D00457039 /* Debug */,
+				10C3870321DB115D00457039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1098D6C921D5F4F900F5008B /* ChupApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1098D6CA21D5F4F900F5008B /* ChupApp.xcdatamodel */,
-			);
-			currentVersion = 1098D6CA21D5F4F900F5008B /* ChupApp.xcdatamodel */;
-			path = ChupApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 1098D6B721D5F4F900F5008B /* Project object */;
+	rootObject = 10C386CB21DB115A00457039 /* Project object */;
 }
