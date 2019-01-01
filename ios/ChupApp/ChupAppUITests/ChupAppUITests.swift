@@ -2,7 +2,7 @@
 //  ChupAppUITests.swift
 //  ChupAppUITests
 //
-//  Created by Inaki Janeiro Olague on 12/28/18.
+//  Created by Iñaki Janeiro Olague on 12/31/18.
 //  Copyright © 2018 VoidMX. All rights reserved.
 //
 
