@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10066D3321DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */; };
+		10066D3421DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */; };
+		10066D3521DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */; };
 		10C386D721DB115A00457039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386D621DB115A00457039 /* AppDelegate.swift */; };
 		10C386D921DB115A00457039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386D821DB115A00457039 /* ViewController.swift */; };
 		10C386DC21DB115A00457039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C386DA21DB115A00457039 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		10C386E121DB115C00457039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C386DF21DB115C00457039 /* LaunchScreen.storyboard */; };
 		10C386EC21DB115D00457039 /* ChupAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386EB21DB115D00457039 /* ChupAppTests.swift */; };
 		10C386F721DB115D00457039 /* ChupAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386F621DB115D00457039 /* ChupAppUITests.swift */; };
+		181B16857567CC22DC04762E /* Pods_ChupApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596F2F564FC00AE33DEA430D /* Pods_ChupApp.framework */; };
+		8B9AA5906C5EF1F514829A3C /* Pods_ChupAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6414B89A514E8F1C22065A2D /* Pods_ChupAppTests.framework */; };
+		FBFE033E3457ADE8D30EDDFD /* Pods_ChupAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D0DE899F39B8DE64078287 /* Pods_ChupAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10C386D321DB115A00457039 /* ChupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C386D621DB115A00457039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C386D821DB115A00457039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		10C386F221DB115D00457039 /* ChupAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChupAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C386F621DB115D00457039 /* ChupAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChupAppUITests.swift; sourceTree = "<group>"; };
 		10C386F821DB115D00457039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238D90628DE339798723B7F8 /* Pods-ChupApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChupApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChupApp/Pods-ChupApp.debug.xcconfig"; sourceTree = "<group>"; };
+		26DC13AC4D828EC50ACBB5D2 /* Pods-ChupAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChupAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChupAppTests/Pods-ChupAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FF83AF6FD591A2C95A5B41B /* Pods-ChupAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChupAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChupAppUITests/Pods-ChupAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39B9DC3274CE608603FA37C1 /* Pods-ChupAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChupAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChupAppTests/Pods-ChupAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39D0DE899F39B8DE64078287 /* Pods_ChupAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChupAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		596F2F564FC00AE33DEA430D /* Pods_ChupApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChupApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6414B89A514E8F1C22065A2D /* Pods_ChupAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChupAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A637BCE11EA53364EBDC9A90 /* Pods-ChupAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChupAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChupAppUITests/Pods-ChupAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F554EF72872679A57A358895 /* Pods-ChupApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChupApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChupApp/Pods-ChupApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181B16857567CC22DC04762E /* Pods_ChupApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9AA5906C5EF1F514829A3C /* Pods_ChupAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFE033E3457ADE8D30EDDFD /* Pods_ChupAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D669D2EE8B93AEA28C1D160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596F2F564FC00AE33DEA430D /* Pods_ChupApp.framework */,
+				6414B89A514E8F1C22065A2D /* Pods_ChupAppTests.framework */,
+				39D0DE899F39B8DE64078287 /* Pods_ChupAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		10C386CA21DB115A00457039 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				10C386EA21DB115D00457039 /* ChupAppTests */,
 				10C386F521DB115D00457039 /* ChupAppUITests */,
 				10C386D421DB115A00457039 /* Products */,
+				FD8F9A1363DC67FACFFE9A58 /* Pods */,
+				0D669D2EE8B93AEA28C1D160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +134,7 @@
 				10C386DD21DB115C00457039 /* Assets.xcassets */,
 				10C386DF21DB115C00457039 /* LaunchScreen.storyboard */,
 				10C386E221DB115C00457039 /* Info.plist */,
+				10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */,
 			);
 			path = ChupApp;
 			sourceTree = "<group>";
@@ -125,6 +157,19 @@
 			path = ChupAppUITests;
 			sourceTree = "<group>";
 		};
+		FD8F9A1363DC67FACFFE9A58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				238D90628DE339798723B7F8 /* Pods-ChupApp.debug.xcconfig */,
+				F554EF72872679A57A358895 /* Pods-ChupApp.release.xcconfig */,
+				39B9DC3274CE608603FA37C1 /* Pods-ChupAppTests.debug.xcconfig */,
+				26DC13AC4D828EC50ACBB5D2 /* Pods-ChupAppTests.release.xcconfig */,
+				A637BCE11EA53364EBDC9A90 /* Pods-ChupAppUITests.debug.xcconfig */,
+				2FF83AF6FD591A2C95A5B41B /* Pods-ChupAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C386FB21DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupApp" */;
 			buildPhases = (
+				6FB83F37AECC2CA633AE125B /* [CP] Check Pods Manifest.lock */,
 				10C386CF21DB115A00457039 /* Sources */,
 				10C386D021DB115A00457039 /* Frameworks */,
 				10C386D121DB115A00457039 /* Resources */,
+				F3A02BF6180ABC8F62DF87B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C386FE21DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupAppTests" */;
 			buildPhases = (
+				E6FD8D3923BD922EFE20F0AA /* [CP] Check Pods Manifest.lock */,
 				10C386E321DB115D00457039 /* Sources */,
 				10C386E421DB115D00457039 /* Frameworks */,
 				10C386E521DB115D00457039 /* Resources */,
@@ -167,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C3870121DB115D00457039 /* Build configuration list for PBXNativeTarget "ChupAppUITests" */;
 			buildPhases = (
+				90DB4DB9890294010A1E0AC1 /* [CP] Check Pods Manifest.lock */,
 				10C386EE21DB115D00457039 /* Sources */,
 				10C386EF21DB115D00457039 /* Frameworks */,
 				10C386F021DB115D00457039 /* Resources */,
@@ -230,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10C386E121DB115C00457039 /* LaunchScreen.storyboard in Resources */,
+				10066D3321DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */,
 				10C386DE21DB115C00457039 /* Assets.xcassets in Resources */,
 				10C386DC21DB115A00457039 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10066D3421DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +297,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10066D3521DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FB83F37AECC2CA633AE125B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChupApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DB4DB9890294010A1E0AC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChupAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6FD8D3923BD922EFE20F0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChupAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A02BF6180ABC8F62DF87B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChupApp/Pods-ChupApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChupApp/Pods-ChupApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10C386CF21DB115A00457039 /* Sources */ = {
@@ -430,6 +575,7 @@
 		};
 		10C386FC21DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238D90628DE339798723B7F8 /* Pods-ChupApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +594,7 @@
 		};
 		10C386FD21DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F554EF72872679A57A358895 /* Pods-ChupApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +613,7 @@
 		};
 		10C386FF21DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B9DC3274CE608603FA37C1 /* Pods-ChupAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +634,7 @@
 		};
 		10C3870021DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DC13AC4D828EC50ACBB5D2 /* Pods-ChupAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +655,7 @@
 		};
 		10C3870221DB115D00457039 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A637BCE11EA53364EBDC9A90 /* Pods-ChupAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +675,7 @@
 		};
 		10C3870321DB115D00457039 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF83AF6FD591A2C95A5B41B /* Pods-ChupAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
