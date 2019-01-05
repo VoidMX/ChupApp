@@ -10,9 +10,11 @@ import XCTest
 
 class ChupAppUITests: XCTestCase {
 
+    let app = XCUIApplication()
+
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-
+        super.setUp()
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
 
@@ -26,9 +28,29 @@ class ChupAppUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSoloModeInvocation() {
+        let soloButton = app.buttons.matching(identifier: "soloButton").element
+
+        soloButton.tap()
+
+        XCTAssert(app.buttons["Drink Up"].exists, "User not redirected to games menu in solo mode")
     }
 
+    func testCreateAParty() {
+        let partyButton = app.buttons.matching(identifier: "partyButton").element
+    
+        partyButton.tap()
+        app.buttons["Create Party"].tap()
+
+        XCTAssert(app.buttons["Drink Up"].exists, "User not redirected to games menu in party mode")
+    }
+
+    func testJoinAParty() {
+        let partyButton = app.buttons.matching(identifier: "partyButton").element
+
+        partyButton.tap()
+        app.buttons["Join Party"].tap()
+
+        XCTAssert(app.staticTexts["Enter PIN:"].exists, "User not redirected to join party menu")
+    }
 }

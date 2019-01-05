@@ -1,0 +1,6 @@
+framework module Pods_ChupApp_ChupAppUITests {
+  umbrella header "Pods-ChupApp-ChupAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
