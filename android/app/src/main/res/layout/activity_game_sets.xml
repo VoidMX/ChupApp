@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvGameMode_1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_1"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_2"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="29dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_2"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_3"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tvGameMode_1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_3"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_4"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tvGameMode_2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="29dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_4"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_5"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tvGameMode_3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_5"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_6"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tvGameMode_4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="29dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_6"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_7"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tvGameMode_5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_7"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvGameMode_8"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tvGameMode_6"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/Game_8"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+</ScrollView>

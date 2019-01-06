@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Chupapp</string>
+
+    <!--Game modes-->
+    <string name="game_mode_1">Single phone</string>
+    <string name="game_mode_2">Multi-phone</string>
+
+    <!--Games-->
+    <string name="Game_1">Drink-up</string>
+    <string name="Game_2">Kings</string>
+    <string name="Game_3">Beer pong</string>
+    <string name="Game_4">Game_4</string>
+    <string name="Game_5">Game_5</string>
+    <string name="Game_6">Game_6</string>
+    <string name="Game_7">Game_7</string>
+    <string name="Game_8">Game_8</string>
+
+    <!--Buttons-->
+    <string name="CreateMatch">Crear partida</string>
+    <string name="JoinMatch">Unirse a partida</string>
+
+    <string name="TypePin">Ingrese el pin:</string>
 </resources>
