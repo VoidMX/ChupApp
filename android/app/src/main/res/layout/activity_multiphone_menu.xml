@@ -23,7 +23,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="113dp"
-        android:text="@string/JoinMatch" />
+        android:text="@string/JoinMatch"/>
 
     <ImageView
         android:id="@+id/imageView"

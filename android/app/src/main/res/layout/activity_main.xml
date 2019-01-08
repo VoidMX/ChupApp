@@ -45,7 +45,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_weight="1"
-        app:cardBackgroundColor="@color/colorAccent"
+        app:cardBackgroundColor="@color/colorSecondary"
         app:cardCornerRadius="0dp">
 
         <RelativeLayout

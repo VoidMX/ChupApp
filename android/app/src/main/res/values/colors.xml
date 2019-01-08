@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="colorBackgroundSplashScreen">#084B8A</color>
+    <color name="colorPrimary">#26547c</color>
+    <color name="colorPrimary_Alt">#0d3b63</color>
+    <color name="colorSecondary">#ef476f</color>
+    <color name="colorSecondary_Alt">#d62e56</color>
+    <color name="colorTertiary">#06d6a0</color>
+    <color name="colorTertiary_Alt">#00b78d</color>
+    <color name="colorEmphasize">#ffd166</color>
+    <color name="colorEmphasize_Alt">#E6B84D</color>
+    <color name="colorTextLight">#fffcf9</color>
+    <color name="colorTextDark">#434343</color>
 </resources>
