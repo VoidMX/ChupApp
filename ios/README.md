@@ -17,9 +17,9 @@ Remember to **ALWAYS use ChupApp.xcworkspace instead of ChupApp.xcodeproj**, bec
 To test the application you'll have to download the project.
 
 1. Download [XCode](https://itunes.apple.com/mx/app/xcode/id497799835?mt=12) from the Mac AppStore. (Make sure you have the latest Mac OS to prevent any issues!)
-2. **If you know git**, simply *clone* this repository in your computer
+2. **If you know git**, simply *clone* this repository in your computer (you can just `git pull` every time you're going to test)
 
-    **If you don't know what git is**
+    **If you don't know what git is** (you'll have to download the project every week)
     1. Go to the [repository main page](https://github.com/VoidMX/ChupApp)
     2. Click on the green button and select "Download ZIP"
         ![Screenshot](https://i.ibb.co/S02n9w2/Screen-Shot-2019-01-07-at-2-55-35-AM.png "Screenshot")
