@@ -26,6 +26,8 @@ To test the application you'll have to download the project.
     3. Once downloaded, double click it and a new folder should appear, click on it, go to the iOS folder, then to the ChupApp folder and then open *ChupApp.xcworkspace*. **DO NOT CLICK ChupApp.xcodeproj**, you won't break anything, but it might not work.
     4. Once the application launches, click the play button on the top ![Screenshot](https://i.ibb.co/yh78FGf/Screen-Shot-2019-01-07-at-3-33-55-AM.png "Screenshot") Depending on your computer, **the application may take 1-5 minutes to launch.**
     
+    _BONUS_ You can [test the app on your real iPhone!](https://www.twilio.com/blog/2018/07/how-to-test-your-ios-application-on-a-real-device.html)
+    
 Thank you so much! All feedback is appreciated ❤️
 
 
