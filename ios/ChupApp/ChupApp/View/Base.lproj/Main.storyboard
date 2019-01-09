@@ -37,7 +37,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" name="Principal"/>
+                                <color key="backgroundColor" name="Primary"/>
                                 <constraints>
                                     <constraint firstItem="j32-wZ-kKS" firstAttribute="centerX" secondItem="cdA-eh-tAu" secondAttribute="centerX" id="iCB-qC-fsf"/>
                                     <constraint firstItem="j32-wZ-kKS" firstAttribute="centerY" secondItem="cdA-eh-tAu" secondAttribute="centerY" id="qIJ-ob-C4X"/>
@@ -181,7 +181,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biQ-6T-giy" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biQ-6T-giy" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="116.5" y="0.0" width="82" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -196,7 +196,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yq-l6-m7e" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yq-l6-m7e" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="233.5" y="0.0" width="81.5" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -221,7 +221,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="dS2-Eh-KdN">
                                         <rect key="frame" x="0.0" y="191" width="315" height="161"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYz-hR-uO9" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYz-hR-uO9" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="81.5" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -236,7 +236,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RH5-Lb-BWA" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RH5-Lb-BWA" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="116.5" y="0.0" width="82" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -251,7 +251,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAg-BT-i5g" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAg-BT-i5g" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="233.5" y="0.0" width="81.5" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -271,7 +271,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="DvO-rS-dms">
                                         <rect key="frame" x="0.0" y="382" width="315" height="161"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GkK-Ib-yAd" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GkK-Ib-yAd" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="81.5" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -286,7 +286,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UQ-Wz-m5l" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UQ-Wz-m5l" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="116.5" y="0.0" width="82" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -301,7 +301,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaS-jM-88w" customClass="designableButton" customModule="ChupApp" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaS-jM-88w" customClass="DesignableButton" customModule="ChupApp" customModuleProvider="target">
                                                 <rect key="frame" x="233.5" y="0.0" width="81.5" height="161"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
@@ -360,8 +360,8 @@
         </scene>
     </scenes>
     <resources>
-        <namedColor name="Principal">
-            <color red="0.14901960784313725" green="0.32941176470588235" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="Primary">
+            <color red="0.14509803921568629" green="0.32549019607843138" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Secondary">
             <color red="0.93725490196078431" green="0.27843137254901962" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
