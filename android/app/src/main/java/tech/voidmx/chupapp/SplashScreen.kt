@@ -3,7 +3,7 @@ package tech.voidmx.chupapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import java.lang.Exception
+import android.os.Handler
 
 class SplashScreen : AppCompatActivity() {
 
@@ -11,17 +11,10 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-        val splashScreenThread = object : Thread() {
-            override fun run() {
-                try {
-                    Thread.sleep(1500)
-                    val intent = Intent(baseContext, MainActivity::class.java)
-                    startActivity(intent)
-                } catch (e : Exception) {
-                    e.printStackTrace()
-                }
-            }
-        }
-        splashScreenThread.start()
+        Handler().postDelayed({
+            val intent = Intent(baseContext, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 1000)
     }
 }
