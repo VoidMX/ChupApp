@@ -12,6 +12,7 @@
 		10066D3521DB1EB800A7EE1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */; };
 		10066D3721DEC4EA00A7EE1D /* InterfaceBuilderTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10066D3621DEC4EA00A7EE1D /* InterfaceBuilderTools.swift */; };
 		10066D3E21E0AE3400A7EE1D /* GameSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10066D3D21E0AE3400A7EE1D /* GameSelectorViewController.swift */; };
+		10929D9D21E578D3009A8A20 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10929D9C21E578D3009A8A20 /* Colors.swift */; };
 		10C386D721DB115A00457039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386D621DB115A00457039 /* AppDelegate.swift */; };
 		10C386D921DB115A00457039 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C386D821DB115A00457039 /* MainMenuViewController.swift */; };
 		10C386DC21DB115A00457039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C386DA21DB115A00457039 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		10066D3221DB1EB800A7EE1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10066D3621DEC4EA00A7EE1D /* InterfaceBuilderTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderTools.swift; sourceTree = "<group>"; };
 		10066D3D21E0AE3400A7EE1D /* GameSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectorViewController.swift; sourceTree = "<group>"; };
+		10929D9C21E578D3009A8A20 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		10C386D321DB115A00457039 /* ChupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C386D621DB115A00457039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C386D821DB115A00457039 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				10066D3621DEC4EA00A7EE1D /* InterfaceBuilderTools.swift */,
+				10929D9C21E578D3009A8A20 /* Colors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -230,7 +233,6 @@
 				10C386CF21DB115A00457039 /* Sources */,
 				10C386D021DB115A00457039 /* Frameworks */,
 				10C386D121DB115A00457039 /* Resources */,
-				3A8E6C01812351B41376D48E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,7 +270,6 @@
 				10C386EE21DB115D00457039 /* Sources */,
 				10C386EF21DB115D00457039 /* Frameworks */,
 				10C386F021DB115D00457039 /* Resources */,
-				84E1C5CCCDD861145C6B0055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -399,54 +400,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3A8E6C01812351B41376D48E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ChupApp/Pods-ChupApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChupApp/Pods-ChupApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84E1C5CCCDD861145C6B0055 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ChupApp-ChupAppUITests/Pods-ChupApp-ChupAppUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChupApp-ChupAppUITests/Pods-ChupApp-ChupAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		85EF7ED04E94E2E0CF0B7884 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10066D3721DEC4EA00A7EE1D /* InterfaceBuilderTools.swift in Sources */,
+				10929D9D21E578D3009A8A20 /* Colors.swift in Sources */,
 				10C386D921DB115A00457039 /* MainMenuViewController.swift in Sources */,
 				10066D3E21E0AE3400A7EE1D /* GameSelectorViewController.swift in Sources */,
 				10C386D721DB115A00457039 /* AppDelegate.swift in Sources */,
