@@ -19,18 +19,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DVG-WV-y90">
-                                <rect key="frame" x="89" y="235" width="197" height="197"/>
-                                <accessibility key="accessibilityConfiguration" identifier="launchScreenLogo">
-                                    <bool key="isElement" value="NO"/>
-                                </accessibility>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0N8-e7-umx">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <accessibility key="accessibilityConfiguration" identifier="launchScreenLogo"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="56L-Pg-Tsk"/>
+                                    <constraint firstAttribute="width" constant="200" id="MZc-EY-WIM"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" name="Primary"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DVG-WV-y90" secondAttribute="trailing" constant="89" id="Zry-9C-RqZ"/>
-                            <constraint firstItem="DVG-WV-y90" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="aiX-CZ-7wT"/>
-                            <constraint firstItem="DVG-WV-y90" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="215" id="iYF-YK-m70"/>
+                            <constraint firstItem="0N8-e7-umx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="a08-h0-onn"/>
+                            <constraint firstItem="0N8-e7-umx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hkH-w3-SRp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
