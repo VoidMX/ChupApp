@@ -18,5 +18,7 @@ extension UIColor {
     static let terciaryColorAlt = UIColor(named: "Terciary Alt")
     static let actionColor = UIColor(named: "Action")
     static let actionColorAlt = UIColor(named: "Action Alt")
+    static let lightTextColor = UIColor(named: "Light Text")
+    static let darkTextColor = UIColor(named: "Dark Text")
 
 }
