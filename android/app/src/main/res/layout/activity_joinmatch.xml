@@ -8,20 +8,20 @@
     tools:context=".JointMatch">
 
     <TextView
-        android:id="@+id/tvEnterPin"
+        android:id="@+id/tv_enterPin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="224dp"
-        android:text="@string/TypePin"
+        android:text="@string/tv_enterPin"
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/etPin"
+        android:id="@+id/et_pin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvEnterPin"
+        android:layout_below="@+id/tv_enterPin"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
         android:ems="10"

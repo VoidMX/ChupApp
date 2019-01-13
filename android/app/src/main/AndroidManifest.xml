@@ -18,9 +18,6 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".GameSets"/>
-        <activity android:name=".MultiphoneMenu"/>
-        <activity android:name=".JoinMatch"/>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -28,6 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".MultiphoneMenu"/>
+        <activity android:name=".GameSets"/>
+        <activity android:name=".JoinMatch"/>
     </application>
 
 </manifest>

@@ -8,22 +8,22 @@
     tools:context=".MultiphoneMenu">
 
     <Button
-        android:id="@+id/btCreateMatch"
+        android:id="@+id/btn_createMatch"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="170dp"
-        android:text="@string/CreateMatch" />
+        android:text="@string/button_createMatch" />
 
     <Button
-        android:id="@+id/btJoinMatch"
+        android:id="@+id/btn_joinMatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="113dp"
-        android:text="@string/JoinMatch"/>
+        android:text="@string/button_joinMatch" />
 
     <ImageView
         android:id="@+id/imageView"
