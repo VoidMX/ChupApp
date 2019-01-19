@@ -53,4 +53,20 @@ class ChupAppUITests: XCTestCase {
 
         XCTAssert(app.staticTexts["Enter PIN:"].exists, "User not redirected to join party menu")
     }
+
+    //Test to check the logo in the Launch Screen
+    //Waiting for the logo
+    /*
+    func testLaunchScreenLogo(){
+        let launchScreenLogo = app.images.matching(identifier: "launchScreenLogo").element
+        
+        XCTAssert(launchScreenLogo.exists, "Image in the launch screen not showing up")
+    }
+    */
+
+    func testChangeLaunchScreen() {
+        let soloButton = app.buttons.matching(identifier: "soloButton").element
+        
+        XCTAssert(soloButton.exists, "The launch screen is not moving into the main menu")
+    }
 }
